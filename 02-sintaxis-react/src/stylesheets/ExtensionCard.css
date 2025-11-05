@@ -1,10 +1,10 @@
 .general{
     background-color: rgb(78, 78, 124);
     border-radius: 20px;
-    width: 30%;
-    height: 24vh;
-    padding-top: 3vh;
-    margin: 4vh;
+    border-color: rgb(194, 194, 228);
+    width: 100%;
+    margin-top: 3vh;
+   
 }
 .tarjeta{
     padding: 2vh;
@@ -35,7 +35,6 @@
 }
 .boton1{
     width: 30%;
-    height: 30%;
     background-color: rgb(78, 78, 124);
     color: rgb(254, 254, 254);
     border-radius: 8px;
@@ -43,7 +42,6 @@
 }
 .boton2{
     width: 10%;
-    height: 30%;
     background-color: red;
     border-radius: 20px;
 }

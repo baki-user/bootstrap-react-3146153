@@ -1,15 +1,15 @@
 
 import "../stylesheets/ExtensionCard.css"
 
-export const ExtensionCard = () => {
+export const ExtensionCard = ({cardTitle, cardImage, cardDescription}) => {
     return (
         <>
             <div className="general">
                 <div className="tarjeta">
-                    <img className="icon" src="./public/icono.png" alt="" />
+                    <img className="icon" src={cardImage} alt="" />
                     <div className="text">
-                        <h1 className="Title">DevLens</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <h1 className="Title">{cardTitle}</h1>
+                        <p>{cardDescription}</p>
                     </div>
                 </div>
                 <div className="botones">
