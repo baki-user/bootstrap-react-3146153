@@ -2,6 +2,7 @@
 import "./App.css"
 import { NavBar } from './components/NavBar'
 import { ExtensionCard } from './components/ExtensionCard'
+import { Login } from "./components/Login"
 
 export const App = () => {
   return (
@@ -55,6 +56,9 @@ export const App = () => {
        />
      </div>
      <h1>React + Bootstrap</h1>
+     <Login
+
+     />
     </>
   )
 }
