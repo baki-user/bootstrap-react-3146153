@@ -3,6 +3,7 @@ import "./App.css"
 import { NavBar } from './components/NavBar'
 import { ExtensionCard } from './components/ExtensionCard'
 import { Login } from "./components/Login"
+import { ProductoCard } from "./components/ProductoCard"
 
 export const App = () => {
   return (
@@ -59,6 +60,22 @@ export const App = () => {
      <Login
 
      />
+     <div className="container">
+      <div className="row">
+        <div className="col-md-6 col-lg-4">
+         <ProductoCard/>
+
+        </div>
+        <div className="col-md-6 col-lg-4 mt-4 mt-md-0">
+         <ProductoCard/>
+
+        </div>
+        <div className="col-md-12 col-lg-4 mt-4 mt-lg-0">
+         <ProductoCard/>
+
+        </div>
+      </div>
+     </div>
     </>
   )
 }
