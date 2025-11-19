@@ -1,3 +1,12 @@
 .bg-purple{
     background-color: rgb(154, 78, 226);
 }
+.bg-bluedark{
+    background-color: rgb(93, 94, 143);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-black{
+    background-color: black;
+}
