@@ -6,10 +6,10 @@ export const App = () => {
     <>
 
       <div className="container">
-        <div className="row mt-5">
-          <div className="col-9 ">
-            <div className="row ">
-              <div className="col-8 h-100 ">
+        <div className="row mt-5 ">
+          <div className="col-12 col-lg-9">
+            <div className="row  ">
+              <div className="h-100 col-12 col-lg-8">
                 <Card
                   textColor="text-light"
                   cardColor="bg-purple"
@@ -20,7 +20,7 @@ export const App = () => {
                   cardDescription="I was an EMT for many years before I joined the bootcamp. I've been looking to make a transition and have heard some people who had an amazing experience here. I signed up for the free intro course and found it incredibly fun! I enrolled shortly thereafter. The next 12 weeks was the best - and most grueling - time of my life."
                 />
               </div>
-              <div className="col-4 h-100">
+              <div className=" h-100 col-12 col-lg-4">
                 <Card
                   textColor="text-light"
                   cardColor="bg-bluedark"
@@ -32,7 +32,7 @@ export const App = () => {
 
                 />
               </div>
-              <div className="col-4 h-100">
+              <div className="h-100 col-12 col-lg-4">
                 <Card
                   textColor="text-black"
                   cardColor="bg-white"
@@ -44,7 +44,7 @@ export const App = () => {
 
                 />
               </div>
-              <div className="col-8 h-100">
+              <div className="h-100 col-12 col-lg-8">
                 <Card
                   textColor="text-light"
                   cardColor="bg-black"
@@ -58,7 +58,7 @@ export const App = () => {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="h-100 col-12 col-lg-3">
             <Card
               textColor="text-black"
               cardColor="bg-white"
