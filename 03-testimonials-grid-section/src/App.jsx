@@ -6,11 +6,12 @@ export const App = () => {
     <>
 
       <div className="container">
-        <div className="row ">
-          <div className="col-9">
+        <div className="row mt-5">
+          <div className="col-9 ">
             <div className="row ">
               <div className="col-8 h-100 ">
                 <Card
+                  textColor="text-light"
                   cardColor="bg-purple"
                   cardImage="./public/image-daniel.jpg"
                   cardTitle="Daniel Clifford"
@@ -21,6 +22,7 @@ export const App = () => {
               </div>
               <div className="col-4 h-100">
                 <Card
+                  textColor="text-light"
                   cardColor="bg-bluedark"
                   cardImage="./public/image-jonathan.jpg"
                   cardTitle="Jonathan Walters"
@@ -32,6 +34,7 @@ export const App = () => {
               </div>
               <div className="col-4 h-100">
                 <Card
+                  textColor="text-black"
                   cardColor="bg-white"
                   cardImage="./public/image-jeanette.jpg"
                   cardTitle="Jeanette Harmon"
@@ -43,6 +46,7 @@ export const App = () => {
               </div>
               <div className="col-8 h-100">
                 <Card
+                  textColor="text-light"
                   cardColor="bg-black"
                   cardImage="./public/image-patrick.jpg"
                   cardTitle="Patrick Abrams"
@@ -54,8 +58,9 @@ export const App = () => {
               </div>
             </div>
           </div>
-          <div className="col-3 bs-body-bg-rgb">
+          <div className="col-3">
             <Card
+              textColor="text-black"
               cardColor="bg-white"
               cardImage="./public/image-kira.jpg"
               cardTitle="Kira Whittle"
