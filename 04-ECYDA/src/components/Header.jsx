@@ -4,16 +4,16 @@ export const Header = ({ headerColor , header2Color }) => {
   return (
     <div className="Header ">
       <nav class={`navbar navbar-expand-lg  ${headerColor}`} data-bs-theme="dark">
-        <div class="container-fluid justify-content-between">
+        <div class="container ">
           <a class="navbar-brand" href="#">
-            <img src="./public/logo-blanco.png" alt="Bootstrap" width="80" height="80"/>
+            <img src="./public/logo-blanco.png" alt="Bootstrap" width="80"/>
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item navbar-light">
+            <ul class="navbar-nav ms-auto ">
+              <li class="nav-item navbar-light ">
                 <a class="nav-link" href="#">Acerca de</a>
               </li>
               <li class="nav-item">
@@ -29,7 +29,7 @@ export const Header = ({ headerColor , header2Color }) => {
           </div>
         </div>
       </nav>
-      <div className={`${header2Color}`}>Lo normal fue lo primero en morir</div>
+      <div className={`text-white text-center  ${header2Color}`}>Lo normal fue lo primero en morir</div>
     </div>
   )
 }

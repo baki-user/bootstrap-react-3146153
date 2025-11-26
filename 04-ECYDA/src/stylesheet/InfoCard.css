@@ -1,0 +1,5 @@
+.bg-img{
+    background-image: url(../public/fabrica1.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
