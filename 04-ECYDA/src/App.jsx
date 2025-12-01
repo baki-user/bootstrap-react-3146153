@@ -1,6 +1,7 @@
 import "./App.css"
 import { Header } from "./components/Header.jsx"
 import {InfoCard} from "./components/InfoCard.jsx"
+import { Cards } from "./components/Cards.jsx"
 
 export const App = () => {
     return(
@@ -11,6 +12,8 @@ export const App = () => {
         />
         <InfoCard
          BgImg="bg-img"
+        />
+        <Cards
         />
         </>
     )
