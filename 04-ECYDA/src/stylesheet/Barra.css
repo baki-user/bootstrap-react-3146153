@@ -1,4 +1,5 @@
 .bg-Img5{
-    background-color: #CEDFCE;
-    background-image:url(../image.png);
+    background-image:url(../edificios.png);
+    background-position: center;
+    background-size: contain;
 }
