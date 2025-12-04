@@ -1,0 +1,5 @@
+.bgIma{
+    background-image: url(../public/filas.png);
+    background-position: center;
+    background-size: contain;
+}
