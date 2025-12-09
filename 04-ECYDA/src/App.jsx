@@ -10,11 +10,12 @@ import { Header2 } from "./components/Header2.jsx"
 import { Meaning } from "./components/Meaning.jsx"
 import { Valores } from "./components/Valores.jsx"
 import { Objetivos } from "./components/Objetivos.jsx"
+import { Footer } from "./components/Footer.jsx"
 
 export const App = () => {
     return(
         <>
-        {/* <Header
+        <Header
          headerColor="bg-green"
          header2Color="bg-lightColor"
         />
@@ -40,8 +41,11 @@ export const App = () => {
         <Boton
          btncolor="bg-lightColor"
          fondob="back"
-         /> */}
-        <Header2
+         />
+        <Footer
+         headerColor="bg-green"
+         /> 
+       {/*  <Header2
          headerColor="bg-green"
         />
         <Meaning
@@ -55,6 +59,9 @@ export const App = () => {
          />
         <Objetivos
          />
+        <Footer
+         headerColor="bg-green"
+         /> */}
         </>
     )
 }
