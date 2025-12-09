@@ -9,6 +9,7 @@ import { Boton } from "./components/Boton.jsx"
 import { Header2 } from "./components/Header2.jsx"
 import { Meaning } from "./components/Meaning.jsx"
 import { Valores } from "./components/Valores.jsx"
+import { Objetivos } from "./components/Objetivos.jsx"
 
 export const App = () => {
     return(
@@ -51,6 +52,8 @@ export const App = () => {
          Fondo2="fondoval2"
          Fondo3="fondoval3"
          Fondo4="fondoval4"
+         />
+        <Objetivos
          />
         </>
     )
