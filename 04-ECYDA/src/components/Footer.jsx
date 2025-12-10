@@ -3,8 +3,9 @@
 export const Footer = ({ headerColor }) => {
     return (
         <>
-            <div className="container ">
-                <div className={`navbar-expand-lg  ${headerColor}`} >
+        <div className={`navbar-expand-lg  ${headerColor}`} >
+            <div className="container">
+                <div className="navbar-expand-lg" >
                     <div className="row container">
                         <div className="col d-flex flex-column justify-content-center">
                             <div className=" m-auto  border-white d-flex " style={{ width: "23rem" }}>
@@ -37,6 +38,8 @@ export const Footer = ({ headerColor }) => {
                     </div>
                 </div>
             </div>
+
+        </div>
         </>
     )
 }

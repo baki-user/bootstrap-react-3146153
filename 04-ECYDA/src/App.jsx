@@ -25,7 +25,6 @@ export const App = () => {
         <Cards
          bgImg="bg-fact2"
          bgImg2="bg-fact3"
-         bgR="bg-Rect"
          />
         <Barra
         bgIMG="bg-Img5"
